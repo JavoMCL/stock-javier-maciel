@@ -1,0 +1,580 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|c:\\users\\pc\\documents\\sistema de stock\\stock-javier-maciel\\ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|c:\\users\\pc\\documents\\sistema de stock\\stock-javier-maciel\\ui\\frmlistaclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\frmlistaclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\backend\\models\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|solutionrelative:backend\\models\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\backend\\utils\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|solutionrelative:backend\\utils\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmgestioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\frmgestioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmlistaclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\frmlistaclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|c:\\users\\pc\\documents\\sistema de stock\\stock-javier-maciel\\ui\\productos\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\productos\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\productos\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\productos\\frmagregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|c:\\users\\pc\\documents\\sistema de stock\\stock-javier-maciel\\ui\\frmgestioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\frmgestioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\backend\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|solutionrelative:backend\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|c:\\users\\pc\\documents\\sistema de stock\\stock-javier-maciel\\ui\\productos\\frmlistadeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\productos\\frmlistadeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|c:\\users\\pc\\documents\\sistema de stock\\stock-javier-maciel\\ui\\proveedores\\frmlistarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\proveedores\\frmlistarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\productos\\frmlistadeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\productos\\frmlistadeproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\backend\\models\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|solutionrelative:backend\\models\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\proveedores\\frmgestionproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\proveedores\\frmgestionproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\proveedores\\frmlistarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\proveedores\\frmlistarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|c:\\users\\pc\\documents\\sistema de stock\\stock-javier-maciel\\ui\\compra\\frmnuevacompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\compra\\frmnuevacompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\compra\\frmnuevacompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\compra\\frmnuevacompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\backend\\models\\entidades\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|solutionrelative:backend\\models\\entidades\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\compra\\frmlistacompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\compra\\frmlistacompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\backend\\models\\entidades\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|solutionrelative:backend\\models\\entidades\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\backend\\models\\entidades\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|solutionrelative:backend\\models\\entidades\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\ventas\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\ventas\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|c:\\users\\pc\\documents\\sistema de stock\\stock-javier-maciel\\ui\\ventas\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\ventas\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\backend\\models\\entidades\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|solutionrelative:backend\\models\\entidades\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\ventas\\frmlistaventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\ventas\\frmlistaventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|c:\\users\\pc\\documents\\sistema de stock\\stock-javier-maciel\\ui\\compra\\frmlistacompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\compra\\frmlistacompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|c:\\users\\pc\\documents\\sistema de stock\\stock-javier-maciel\\ui\\productos\\frmagregarproducto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0CEAA3-619F-4E87-9CE0-C8881CD736F8}|ui\\ui.csproj|solutionrelative:ui\\productos\\frmagregarproducto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\backend\\models\\tipotelefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061F0FBE-6BA4-4D2C-A78C-D08071B1C4FA}|Backend\\Backend.csproj|solutionrelative:backend\\models\\tipotelefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Venta\\frmVentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ui\\Venta\\frmVentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Venta\\frmListaVentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ui\\Venta\\frmListaVentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\venta\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ui\\venta\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\venta\\frmlistaventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ui\\venta\\frmlistaventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Models\\Entidades\\Compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Utils\\DataBase.cs",
+              "RelativeDocumentMoniker": "Backend\\Utils\\DataBase.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Utils\\DataBase.cs",
+              "RelativeToolTip": "Backend\\Utils\\DataBase.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA0wKMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T16:54:19.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Cliente.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Entidades\\Cliente.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Cliente.cs",
+              "RelativeToolTip": "Backend\\Models\\Entidades\\Cliente.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:59:18.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "ui\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\frmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T17:10:52.858Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "ui\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmPrincipal.cs",
+              "RelativeToolTip": "ui\\frmPrincipal.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:14:31.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmGestionCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmGestionCliente.cs",
+              "RelativeDocumentMoniker": "ui\\frmGestionCliente.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmGestionCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\frmGestionCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T19:12:24.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmListaClientes.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmListaClientes.cs",
+              "RelativeDocumentMoniker": "ui\\frmListaClientes.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmListaClientes.cs",
+              "RelativeToolTip": "ui\\frmListaClientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T16:54:27.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmListaClientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmListaClientes.cs",
+              "RelativeDocumentMoniker": "ui\\frmListaClientes.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmListaClientes.cs [Design]",
+              "RelativeToolTip": "ui\\frmListaClientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T16:30:52.976Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Genero.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Genero.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Genero.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Genero.cs",
+              "RelativeToolTip": "Backend\\Models\\Genero.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T16:28:55.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmAgregarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Productos\\frmAgregarProducto.cs",
+              "RelativeDocumentMoniker": "ui\\Productos\\frmAgregarProducto.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Productos\\frmAgregarProducto.cs",
+              "RelativeToolTip": "ui\\Productos\\frmAgregarProducto.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAWwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T16:57:14.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmAgregarProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Productos\\frmAgregarProducto.cs",
+              "RelativeDocumentMoniker": "ui\\Productos\\frmAgregarProducto.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Productos\\frmAgregarProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\Productos\\frmAgregarProducto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T16:57:11.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmGestionCliente.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmGestionCliente.cs",
+              "RelativeDocumentMoniker": "ui\\frmGestionCliente.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\frmGestionCliente.cs",
+              "RelativeToolTip": "ui\\frmGestionCliente.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAWwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T16:54:33.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmListarProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Proveedores\\frmListarProveedor.cs",
+              "RelativeDocumentMoniker": "ui\\Proveedores\\frmListarProveedor.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Proveedores\\frmListarProveedor.cs",
+              "RelativeToolTip": "ui\\Proveedores\\frmListarProveedor.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAlwDIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T19:47:40.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmGestionProveedor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Proveedores\\frmGestionProveedor.cs",
+              "RelativeDocumentMoniker": "ui\\Proveedores\\frmGestionProveedor.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Proveedores\\frmGestionProveedor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\Proveedores\\frmGestionProveedor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T19:47:33.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Producto.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Entidades\\Producto.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Producto.cs",
+              "RelativeToolTip": "Backend\\Models\\Entidades\\Producto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:47:30.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmListaDeProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Productos\\frmListaDeProductos.cs",
+              "RelativeDocumentMoniker": "ui\\Productos\\frmListaDeProductos.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Productos\\frmListaDeProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\Productos\\frmListaDeProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T14:48:58.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmListaDeProductos.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Productos\\frmListaDeProductos.cs",
+              "RelativeDocumentMoniker": "ui\\Productos\\frmListaDeProductos.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Productos\\frmListaDeProductos.cs",
+              "RelativeToolTip": "ui\\Productos\\frmListaDeProductos.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAArwDkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:37:37.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmListarProveedor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Proveedores\\frmListarProveedor.cs",
+              "RelativeDocumentMoniker": "ui\\Proveedores\\frmListarProveedor.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Proveedores\\frmListarProveedor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\Proveedores\\frmListarProveedor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T19:47:35.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmNuevaCompra.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Compra\\frmNuevaCompra.cs",
+              "RelativeDocumentMoniker": "ui\\Compra\\frmNuevaCompra.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Compra\\frmNuevaCompra.cs",
+              "RelativeToolTip": "ui\\Compra\\frmNuevaCompra.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwCgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T17:27:36.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmNuevaCompra.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Compra\\frmNuevaCompra.cs",
+              "RelativeDocumentMoniker": "ui\\Compra\\frmNuevaCompra.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Compra\\frmNuevaCompra.cs [Design]",
+              "RelativeToolTip": "ui\\Compra\\frmNuevaCompra.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:22:30.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Compras.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Compras.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Entidades\\Compras.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Compras.cs",
+              "RelativeToolTip": "Backend\\Models\\Entidades\\Compras.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:52:03.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmListaCompras.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Compra\\frmListaCompras.cs",
+              "RelativeDocumentMoniker": "ui\\Compra\\frmListaCompras.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Compra\\frmListaCompras.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\Compra\\frmListaCompras.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:20:28.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Entidades\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Proveedor.cs",
+              "RelativeToolTip": "Backend\\Models\\Entidades\\Proveedor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T19:13:53.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Ventas\\frmVentas.cs",
+              "RelativeDocumentMoniker": "ui\\Ventas\\frmVentas.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Ventas\\frmVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\Ventas\\frmVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:29:44.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmVentas.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Ventas\\frmVentas.cs",
+              "RelativeDocumentMoniker": "ui\\Ventas\\frmVentas.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Ventas\\frmVentas.cs",
+              "RelativeToolTip": "ui\\Ventas\\frmVentas.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAArwD4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:29:46.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DetalleCompra.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\DetalleCompra.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Entidades\\DetalleCompra.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\DetalleCompra.cs",
+              "RelativeToolTip": "Backend\\Models\\Entidades\\DetalleCompra.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T17:22:25.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Entidades\\DetalleVenta.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\DetalleVenta.cs",
+              "RelativeToolTip": "Backend\\Models\\Entidades\\DetalleVenta.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:26:10.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmListaVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Ventas\\frmListaVentas.cs",
+              "RelativeDocumentMoniker": "ui\\Ventas\\frmListaVentas.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Ventas\\frmListaVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\Ventas\\frmListaVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:29:30.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmListaCompras.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Compra\\frmListaCompras.cs",
+              "RelativeDocumentMoniker": "ui\\Compra\\frmListaCompras.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Compra\\frmListaCompras.cs",
+              "RelativeToolTip": "ui\\Compra\\frmListaCompras.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:22:24.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmVentas.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Venta\\frmVentas.cs",
+              "RelativeDocumentMoniker": "ui\\Venta\\frmVentas.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Venta\\frmVentas.cs",
+              "RelativeToolTip": "ui\\Venta\\frmVentas.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:21:00.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmListaVentas.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Venta\\frmListaVentas.cs",
+              "RelativeDocumentMoniker": "ui\\Venta\\frmListaVentas.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Venta\\frmListaVentas.cs",
+              "RelativeToolTip": "ui\\Venta\\frmListaVentas.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:57:43.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Venta\\frmVentas.cs",
+              "RelativeDocumentMoniker": "ui\\Venta\\frmVentas.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Venta\\frmVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\Venta\\frmVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:06:09.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frmListaVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Venta\\frmListaVentas.cs",
+              "RelativeDocumentMoniker": "ui\\Venta\\frmListaVentas.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Venta\\frmListaVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ui\\Venta\\frmListaVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:49:46.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Compra.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Entidades\\Compra.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\Entidades\\Compra.cs",
+              "RelativeToolTip": "Backend\\Models\\Entidades\\Compra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T17:22:21.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmAgregarProducto.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Productos\\frmAgregarProducto.Designer.cs",
+              "RelativeDocumentMoniker": "ui\\Productos\\frmAgregarProducto.Designer.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\ui\\Productos\\frmAgregarProducto.Designer.cs",
+              "RelativeToolTip": "ui\\Productos\\frmAgregarProducto.Designer.cs",
+              "ViewState": "AgIAAAMAAACAmZmZmZkdwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:35:21.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TipoTelefono.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\TipoTelefono.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\TipoTelefono.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Sistema de Stock\\stock-javier-maciel\\Backend\\Models\\TipoTelefono.cs",
+              "RelativeToolTip": "Backend\\Models\\TipoTelefono.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T17:37:43.254Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
