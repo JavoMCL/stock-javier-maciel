@@ -45,6 +45,7 @@
             dgvListaCompras.Name = "dgvListaCompras";
             dgvListaCompras.Size = new Size(544, 150);
             dgvListaCompras.TabIndex = 0;
+            dgvListaCompras.CellClick += dgvListaCompras_CellClick;
             // 
             // IDCompra
             // 
@@ -68,8 +69,10 @@
             // 
             // Detalle
             // 
-            Detalle.HeaderText = "";
+            Detalle.HeaderText = "Detalle";
             Detalle.Name = "Detalle";
+            Detalle.Resizable = DataGridViewTriState.True;
+            Detalle.SortMode = DataGridViewColumnSortMode.Automatic;
             // 
             // frmListaCompras
             // 

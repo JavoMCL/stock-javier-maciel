@@ -22,6 +22,14 @@ public static class DataBase
         return new AppDbContext(options);
     }
 
+    private static void EnsureRequired(string? value, string fieldName)
+    {
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            throw new ArgumentException($"El campo '{fieldName}' es obligatorio.");
+        }
+    }
+
     private static void RefreshCaches(AppDbContext context)
     {
         TABLA_GENEROS.Clear();
@@ -71,6 +79,11 @@ public static class DataBase
 
     public static void guardarProveedor(Proveedor proveedor)
     {
+        EnsureRequired(proveedor.nombre, "Nombre del proveedor");
+        EnsureRequired(proveedor.email, "Email del proveedor");
+        EnsureRequired(proveedor.telefono, "Telefono del proveedor");
+        EnsureRequired(proveedor.direcccion, "Direccion del proveedor");
+
         using var context = CreateContext();
 
         if (proveedor.idProveedor == 0)
@@ -101,6 +114,13 @@ public static class DataBase
 
     public static void guardarCliente(Cliente cliente)
     {
+        EnsureRequired(cliente.nombreCliente, "Nombre del cliente");
+        EnsureRequired(cliente.apellidoCliente, "Apellido del cliente");
+        EnsureRequired(cliente.numDocumento, "Documento del cliente");
+        EnsureRequired(cliente.emailCliente, "Email del cliente");
+        EnsureRequired(cliente.telefonoCliente, "Telefono del cliente");
+        EnsureRequired(cliente.direccionCliente, "Direccion del cliente");
+
         using var context = CreateContext();
 
         var tipoTelefono = cliente.tipoTelefono is null
@@ -156,8 +176,29 @@ public static class DataBase
         return TABLA_CLIENTE.Values.ToArray();
     }
 
+    public static void eliminarCliente(int clientID)
+    {
+        using var context = CreateContext();
+        var cliente = context.Clientes.FirstOrDefault(x => x.idCliente == clientID);
+        if (cliente is null)
+        {
+            return;
+        }
+
+        context.Clientes.Remove(cliente);
+        context.SaveChanges();
+        RefreshCaches(context);
+    }
+
     public static void agregarProducto(Producto producto)
     {
+        EnsureRequired(producto.nombreProducto, "Nombre del producto");
+        EnsureRequired(producto.descripcionProducto, "Descripcion del producto");
+        if (producto.precio <= 0)
+        {
+            throw new ArgumentException("El precio del producto debe ser mayor que cero.");
+        }
+
         using var context = CreateContext();
 
         var proveedor = producto.proveedor is null
@@ -212,8 +253,27 @@ public static class DataBase
         RefreshCaches(context);
     }
 
+    public static void eliminarProveedor(int proveedorID)
+    {
+        using var context = CreateContext();
+        var proveedor = context.Proveedores.FirstOrDefault(x => x.idProveedor == proveedorID);
+        if (proveedor is null)
+        {
+            return;
+        }
+
+        context.Proveedores.Remove(proveedor);
+        context.SaveChanges();
+        RefreshCaches(context);
+    }
+
     public static void agregarCompra(Compras compra)
     {
+        if (compra.proveedor is null && (!compra.idProveedor.HasValue || compra.idProveedor.Value <= 0))
+        {
+            throw new ArgumentException("Debe seleccionar un proveedor para la compra.");
+        }
+
         using var context = CreateContext();
 
         var proveedor = compra.proveedor is null
@@ -251,8 +311,25 @@ public static class DataBase
         return context.Compras.AsNoTracking().Include(x => x.proveedor).ToArray();
     }
 
+    public static Array ObtenerDetallesCompraPorCompra(int idCompra)
+    {
+        using var context = CreateContext();
+        return context.DetallesCompra
+            .AsNoTracking()
+            .Include(x => x.producto)
+            .Where(x => x.idCompra == idCompra)
+            .ToArray();
+    }
+
     public static void guardarVenta(Ventas venta)
     {
+        if (venta.cliente is null && (!venta.idCliente.HasValue || venta.idCliente.Value <= 0))
+        {
+            throw new ArgumentException("Debe seleccionar un cliente para la venta.");
+        }
+
+        EnsureRequired(venta.formaPago, "Forma de pago");
+
         using var context = CreateContext();
 
         var cliente = venta.cliente is null
@@ -291,8 +368,33 @@ public static class DataBase
         return context.Ventas.AsNoTracking().Include(x => x.cliente).ToArray();
     }
 
+    public static Array ObtenerDetallesVentaPorVenta(int idVenta)
+    {
+        using var context = CreateContext();
+        return context.DetallesVenta
+            .AsNoTracking()
+            .Include(x => x.producto)
+            .Where(x => x.idVenta == idVenta)
+            .ToArray();
+    }
+
     public static void guardarDetalleVenta(DetalleVenta detalle)
     {
+        if (detalle.idVenta is null || detalle.idVenta <= 0)
+        {
+            throw new ArgumentException("El detalle de venta requiere una venta valida.");
+        }
+
+        if ((detalle.idProducto is null || detalle.idProducto <= 0) && detalle.producto is null)
+        {
+            throw new ArgumentException("El detalle de venta requiere un producto valido.");
+        }
+
+        if (detalle.cantidad <= 0)
+        {
+            throw new ArgumentException("La cantidad en detalle de venta debe ser mayor a cero.");
+        }
+
         using var context = CreateContext();
 
         var venta = detalle.venta is null
@@ -320,6 +422,21 @@ public static class DataBase
 
     public static void guardarDetalleCompra(DetalleCompra detalle)
     {
+        if (detalle.idCompra <= 0)
+        {
+            throw new ArgumentException("El detalle de compra requiere una compra valida.");
+        }
+
+        if ((detalle.idProducto is null || detalle.idProducto <= 0) && detalle.producto is null)
+        {
+            throw new ArgumentException("El detalle de compra requiere un producto valido.");
+        }
+
+        if (detalle.cantidad <= 0)
+        {
+            throw new ArgumentException("La cantidad en detalle de compra debe ser mayor a cero.");
+        }
+
         using var context = CreateContext();
 
         var compra = detalle.compra is null

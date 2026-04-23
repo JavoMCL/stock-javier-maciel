@@ -66,3 +66,4 @@ C:\Users\pc\Documents\Sistema de Stock\stock-javier-maciel\ui\bin\Debug\net8.0-w
 C:\Users\pc\Documents\Sistema de Stock\stock-javier-maciel\ui\bin\Debug\net8.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\pc\Documents\Sistema de Stock\stock-javier-maciel\ui\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
 C:\Users\pc\Documents\Sistema de Stock\stock-javier-maciel\ui\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\pc\Documents\Sistema de Stock\stock-javier-maciel\ui\obj\Debug\net8.0-windows\ui.sourcelink.json

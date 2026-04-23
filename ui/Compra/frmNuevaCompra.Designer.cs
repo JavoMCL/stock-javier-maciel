@@ -40,6 +40,8 @@
             label5 = new Label();
             nmrCantidad = new NumericUpDown();
             btnAgregar = new Button();
+            btnGuardarCompra = new Button();
+            btnCancelarCompra = new Button();
             grbTipo = new GroupBox();
             dataGridView1 = new DataGridView();
             idCompra = new DataGridViewTextBoxColumn();
@@ -162,6 +164,26 @@
             btnAgregar.UseVisualStyleBackColor = true;
             btnAgregar.Click += btnAgregar_Click;
             // 
+            // btnGuardarCompra
+            // 
+            btnGuardarCompra.Location = new Point(523, 280);
+            btnGuardarCompra.Name = "btnGuardarCompra";
+            btnGuardarCompra.Size = new Size(75, 23);
+            btnGuardarCompra.TabIndex = 14;
+            btnGuardarCompra.Text = "Guardar";
+            btnGuardarCompra.UseVisualStyleBackColor = true;
+            btnGuardarCompra.Click += btnGuardarCompra_Click;
+            // 
+            // btnCancelarCompra
+            // 
+            btnCancelarCompra.Location = new Point(604, 280);
+            btnCancelarCompra.Name = "btnCancelarCompra";
+            btnCancelarCompra.Size = new Size(75, 23);
+            btnCancelarCompra.TabIndex = 15;
+            btnCancelarCompra.Text = "Cancelar";
+            btnCancelarCompra.UseVisualStyleBackColor = true;
+            btnCancelarCompra.Click += btnCancelarCompra_Click;
+            // 
             // grbTipo
             // 
             grbTipo.Controls.Add(rdbCredito);
@@ -211,6 +233,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnCancelarCompra);
+            Controls.Add(btnGuardarCompra);
             Controls.Add(dataGridView1);
             Controls.Add(grbTipo);
             Controls.Add(btnAgregar);
@@ -249,6 +273,7 @@
         private NumericUpDown nmrCantidad;
         private Button btnAgregar;
         private Button btnGuardarCompra;
+        private Button btnCancelarCompra;
         private GroupBox grbTipo;
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn idCompra;

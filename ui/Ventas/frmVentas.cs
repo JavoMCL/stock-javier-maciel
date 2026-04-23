@@ -39,8 +39,8 @@ namespace ui.Venta
             {
                 dvgVenta.Rows.Add(
                     detalle.producto.idProducto,
-                    detalle.cantidad,
                     detalle.producto.nombreProducto,
+                    detalle.cantidad,
                     detalle.precioUnitario,
                     detalle.subTotal
                 );
@@ -68,20 +68,27 @@ namespace ui.Venta
 
         private void btnAgregarVenta_Click(object sender, EventArgs e)
         {
-
-            Producto producto1 = (Producto)cmbProducto.SelectedItem;
-            int cantidad1 = (int)nmrCantidad.Value;
-
-            if (producto1.stock < cantidad1)
+            if (cmbProducto.SelectedItem == null)
             {
-                MessageBox.Show("No hay suficiente stock del producto: " + producto1.nombreProducto);
+                MessageBox.Show("Debe seleccionar un producto.");
                 return;
             }
 
-
+            int cantidad = (int)nmrCantidad.Value;
+            if (cantidad <= 0)
+            {
+                MessageBox.Show("La cantidad debe ser mayor a cero.");
+                return;
+            }
 
             Producto producto = (Producto)cmbProducto.SelectedItem;
-            int cantidad = (int)nmrCantidad.Value;
+
+            if (producto.stock < cantidad)
+            {
+                MessageBox.Show("No hay suficiente stock del producto: " + producto.nombreProducto);
+                return;
+            }
+
             decimal precio = (decimal)producto.precio;
             decimal subtotal = cantidad * precio;
 
@@ -93,14 +100,9 @@ namespace ui.Venta
                 subTotal = (float)subtotal
             };
 
-            venta.guardar();
-
-
-
             listaDetalles.Add(detalle);
             cargarTablaVenta();
-
-
+            nmrCantidad.Value = 0;
         }
 
         private void btnGuardarVenta_Click(object sender, EventArgs e)
@@ -125,17 +127,19 @@ namespace ui.Venta
             venta.cliente = (Cliente)cmbCliente.SelectedItem;
             venta.fechaVenta = DateTime.Now;
             venta.total = listaDetalles.Sum(d => d.subTotal);
+            venta.idCliente = venta.cliente.idCliente;
+
+            // Primero se guarda la cabecera para obtener idVenta y usarlo en cada detalle.
+            venta.guardar();
 
             foreach (var detalle in listaDetalles)
             {
                 detalle.venta = venta;
+                detalle.idVenta = venta.idVenta;
                 Backend.Utils.DataBase.guardarDetalleVenta(detalle);
             }
 
             actualizarStockDespuesDeVenta(listaDetalles);
-
-
-            venta.guardar();
             this.Close();
 
         }
@@ -146,9 +150,13 @@ namespace ui.Venta
             {
                 Producto producto = detalle.producto;
                 producto.stock -= detalle.cantidad;
-
-                DataBase.TABLA_PRODUCTOS[producto.idProducto] = producto;
+                DataBase.agregarProducto(producto);
             }
+        }
+
+        private void btnCancelarVenta_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

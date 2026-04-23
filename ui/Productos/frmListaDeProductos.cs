@@ -14,6 +14,9 @@ namespace ui.Productos
 {
     public partial class frmListaDeProductos : Form
     {
+        private readonly Image editarIcon = new Bitmap(SystemIcons.Information.ToBitmap(), new Size(16, 16));
+        private readonly Image eliminarIcon = new Bitmap(SystemIcons.Error.ToBitmap(), new Size(16, 16));
+
         public frmListaDeProductos()
         {
             InitializeComponent();
@@ -36,7 +39,8 @@ namespace ui.Productos
                      Convert.ToString(producto.nombreProducto),
                      Convert.ToString(producto.descripcionProducto),
                     Convert.ToString(producto.precio),
-                    Convert.ToString(producto.proveedor.nombre)
+                    editarIcon,
+                    eliminarIcon
                  );
             }
 
@@ -44,17 +48,34 @@ namespace ui.Productos
 
         private void dgvProductos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex < 0)
+            {
+                return;
+            }
+
+            var idValue = dgvProductos[0, e.RowIndex].Value;
+            if (idValue is null)
+            {
+                return;
+            }
+
             int productID = Convert.ToInt32(dgvProductos[0, e.RowIndex].Value);
-            Producto producto = DataBase.TABLA_PRODUCTOS[productID];
-            if (e.ColumnIndex == 5)
+            if (!DataBase.TABLA_PRODUCTOS.TryGetValue(productID, out var producto))
+            {
+                MessageBox.Show("No se encontro el producto seleccionado.");
+                return;
+            }
+
+            if (e.ColumnIndex == 4)
             {
                 frmAgregarProducto frmSocio = new frmAgregarProducto(producto);
                 frmSocio.ShowDialog();
                 this.cargarTabla();
             }
-            else if (e.ColumnIndex == 6)
+            else if (e.ColumnIndex == 5)
             {
                 DataBase.eliminarProducto(productID);
+                this.cargarTabla();
             }
         }
 

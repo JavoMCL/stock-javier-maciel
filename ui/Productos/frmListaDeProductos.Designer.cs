@@ -33,7 +33,6 @@
             Nombre = new DataGridViewTextBoxColumn();
             Descripcion = new DataGridViewTextBoxColumn();
             Precio = new DataGridViewTextBoxColumn();
-            Proveedor = new DataGridViewTextBoxColumn();
             editProducto = new DataGridViewImageColumn();
             Delete = new DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)dgvProductos).BeginInit();
@@ -42,7 +41,7 @@
             // dgvProductos
             // 
             dgvProductos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvProductos.Columns.AddRange(new DataGridViewColumn[] { ID, Nombre, Descripcion, Precio, Proveedor, editProducto, Delete });
+            dgvProductos.Columns.AddRange(new DataGridViewColumn[] { ID, Nombre, Descripcion, Precio, editProducto, Delete });
             dgvProductos.Location = new Point(35, 29);
             dgvProductos.Name = "dgvProductos";
             dgvProductos.Size = new Size(741, 150);
@@ -70,11 +69,6 @@
             Precio.HeaderText = "Precio";
             Precio.Name = "Precio";
             // 
-            // Proveedor
-            // 
-            Proveedor.HeaderText = "Proveedor";
-            Proveedor.Name = "Proveedor";
-            // 
             // editProducto
             // 
             editProducto.HeaderText = "";
@@ -84,7 +78,7 @@
             // 
             // Delete
             // 
-            Delete.HeaderText = "Delete";
+            Delete.HeaderText = "Eliminar";
             Delete.Name = "Delete";
             // 
             // frmListaDeProductos
@@ -109,7 +103,6 @@
         private DataGridViewTextBoxColumn Nombre;
         private DataGridViewTextBoxColumn Descripcion;
         private DataGridViewTextBoxColumn Precio;
-        private DataGridViewTextBoxColumn Proveedor;
         private DataGridViewImageColumn editProducto;
         private DataGridViewImageColumn Delete;
     }

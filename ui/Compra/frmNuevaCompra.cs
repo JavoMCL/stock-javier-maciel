@@ -151,5 +151,10 @@ namespace ui.Compra
             MessageBox.Show("Compra guardada correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
+
+        private void btnCancelarCompra_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

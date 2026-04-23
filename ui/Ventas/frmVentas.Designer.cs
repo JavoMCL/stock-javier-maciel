@@ -41,6 +41,7 @@
             nmrCantidad = new NumericUpDown();
             btnAgregarVenta = new Button();
             btnGuardarVenta = new Button();
+            btnCancelarVenta = new Button();
             dvgVenta = new DataGridView();
             id = new DataGridViewTextBoxColumn();
             Producto = new DataGridViewTextBoxColumn();
@@ -160,13 +161,23 @@
             // 
             // btnGuardarVenta
             // 
-            btnGuardarVenta.Location = new Point(492, 319);
+            btnGuardarVenta.Location = new Point(411, 319);
             btnGuardarVenta.Name = "btnGuardarVenta";
             btnGuardarVenta.Size = new Size(75, 23);
             btnGuardarVenta.TabIndex = 14;
             btnGuardarVenta.Text = "Guardar";
             btnGuardarVenta.UseVisualStyleBackColor = true;
             btnGuardarVenta.Click += btnGuardarVenta_Click;
+            // 
+            // btnCancelarVenta
+            // 
+            btnCancelarVenta.Location = new Point(492, 319);
+            btnCancelarVenta.Name = "btnCancelarVenta";
+            btnCancelarVenta.Size = new Size(75, 23);
+            btnCancelarVenta.TabIndex = 16;
+            btnCancelarVenta.Text = "Cancelar";
+            btnCancelarVenta.UseVisualStyleBackColor = true;
+            btnCancelarVenta.Click += btnCancelarVenta_Click;
             // 
             // dvgVenta
             // 
@@ -208,6 +219,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(596, 450);
             Controls.Add(dvgVenta);
+            Controls.Add(btnCancelarVenta);
             Controls.Add(btnGuardarVenta);
             Controls.Add(btnAgregarVenta);
             Controls.Add(nmrCantidad);
@@ -248,6 +260,7 @@
         private NumericUpDown nmrCantidad;
         private Button btnAgregarVenta;
         private Button btnGuardarVenta;
+        private Button btnCancelarVenta;
         private DataGridView dvgVenta;
         private DataGridViewTextBoxColumn id;
         private DataGridViewTextBoxColumn Producto;

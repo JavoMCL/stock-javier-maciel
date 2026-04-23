@@ -81,7 +81,7 @@
             // 
             // Delete
             // 
-            Delete.HeaderText = "Delete";
+            Delete.HeaderText = "Eliminar";
             Delete.Name = "Delete";
             Delete.Resizable = DataGridViewTriState.True;
             Delete.SortMode = DataGridViewColumnSortMode.Automatic;

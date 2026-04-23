@@ -39,13 +39,14 @@
             CELLPHONE = new DataGridViewTextBoxColumn();
             DIRECTION = new DataGridViewTextBoxColumn();
             UPDATE = new DataGridViewImageColumn();
+            DELETE = new DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)dgvClientes).BeginInit();
             SuspendLayout();
             // 
             // dgvClientes
             // 
             dgvClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvClientes.Columns.AddRange(new DataGridViewColumn[] { ID, FIRSTNAME, LASTNAME, DOCUMENTS, GENDER, EMAIL, TYPE, CELLPHONE, DIRECTION, UPDATE });
+            dgvClientes.Columns.AddRange(new DataGridViewColumn[] { ID, FIRSTNAME, LASTNAME, DOCUMENTS, GENDER, EMAIL, TYPE, CELLPHONE, DIRECTION, UPDATE, DELETE });
             dgvClientes.Location = new Point(34, 12);
             dgvClientes.Name = "dgvClientes";
             dgvClientes.Size = new Size(1029, 193);
@@ -103,6 +104,11 @@
             UPDATE.HeaderText = "";
             UPDATE.Name = "UPDATE";
             // 
+            // DELETE
+            // 
+            DELETE.HeaderText = "Eliminar";
+            DELETE.Name = "DELETE";
+            // 
             // frmListaClientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -129,5 +135,6 @@
         private DataGridViewTextBoxColumn CELLPHONE;
         private DataGridViewTextBoxColumn DIRECTION;
         private DataGridViewImageColumn UPDATE;
+        private DataGridViewImageColumn DELETE;
     }
 }

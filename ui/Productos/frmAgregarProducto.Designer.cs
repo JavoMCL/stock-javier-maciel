@@ -107,6 +107,7 @@
             // nmrPrecio
             // 
             nmrPrecio.Location = new Point(111, 87);
+            nmrPrecio.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             nmrPrecio.Name = "nmrPrecio";
             nmrPrecio.Size = new Size(167, 23);
             nmrPrecio.TabIndex = 11;

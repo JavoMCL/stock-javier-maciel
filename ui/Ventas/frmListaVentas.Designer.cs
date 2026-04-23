@@ -45,6 +45,7 @@
             dgvListaVentas.Name = "dgvListaVentas";
             dgvListaVentas.Size = new Size(543, 150);
             dgvListaVentas.TabIndex = 0;
+            dgvListaVentas.CellClick += dgvListaVentas_CellClick;
             // 
             // idVenta
             // 
@@ -68,7 +69,7 @@
             // 
             // Detalle
             // 
-            Detalle.HeaderText = "Detalles de Compra";
+            Detalle.HeaderText = "Detalles de Venta";
             Detalle.Name = "Detalle";
             Detalle.Resizable = DataGridViewTriState.True;
             Detalle.SortMode = DataGridViewColumnSortMode.Automatic;
