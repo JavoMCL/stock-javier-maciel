@@ -1,204 +1,240 @@
-﻿# Sistema de Stock - Javier Maciel
+# Stock Management System - Javier Maciel
 
-Sistema de gestión de inventario desarrollado en C# con WinForms y Entity Framework Core, diseñado para administrar proveedores, productos, clientes, compras y ventas.
+> **Note:** This project is entirely in Spanish because it was developed as a university project. Variable names, UI texts, forms, and database structures are written in Spanish.
 
-##  Requisitos Previos
+Stock management system developed in C# using WinForms and Entity Framework Core, designed to manage suppliers, products, customers, purchases, and sales.
 
-- **.NET 8.0** o superior
-- **MySQL 8.0** o superior
-- **Visual Studio 2022** o Rider (JetBrains)
-- **dotnet-cli** (para migraciones EF Core)
+## Prerequisites
 
-##  Instalación
+- **.NET 8.0** or higher
+- **MySQL 8.0** or higher
+- **Visual Studio 2022** or Rider (JetBrains)
+- **dotnet-cli** (for EF Core migrations)
 
-### 1. Clonar el repositorio
+---
+
+## Installation
+
+### 1. Clone the repository
+
 ```bash
-git clone https://github.com/tu-usuario/stock-javier-maciel.git
+git clone https://github.com/your-username/stock-javier-maciel.git
 cd stock-javier-maciel
 ```
 
-### 2. Configurar la base de datos
+### 2. Configure the database
 
-#### Opción A: Ejecutar el script SQL
+#### Option A: Run the SQL script
+
 ```bash
 mysql -u root -p < init_database.sql
 ```
 
-Ingresa tu contraseña cuando se solicite.
+Enter your password when prompted.
 
-#### Opción B: Crear estructura manualmente
+#### Option B: Create the structure manually
+
 ```sql
 CREATE DATABASE IF NOT EXISTS stock_db;
 USE stock_db;
 
--- Ejecuta el contenido del archivo init_database.sql
+-- Execute the contents of init_database.sql
 ```
 
-### 3. Configurar la cadena de conexión
+### 3. Configure the connection string
 
-Edita `ui/appsettings.json`:
+Edit `ui/appsettings.json`:
+
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "server=localhost;database=stock_db;user=root;password=TU_PASSWORD;"
+    "DefaultConnection": "server=localhost;database=stock_db;user=root;password=YOUR_PASSWORD;"
   }
 }
 ```
 
-Reemplaza `TU_PASSWORD` con tu contraseña de MySQL.
+Replace `YOUR_PASSWORD` with your MySQL password.
 
-### 4. Compilar la solución
+### 4. Build the solution
+
 ```bash
 dotnet build
 ```
 
-### 5. Ejecutar la aplicación
+### 5. Run the application
+
 ```bash
 dotnet run --project ui/ui.csproj
 ```
 
-##  Estructura del Proyecto
+---
 
-```
+## Project Structure
+
+```text
 stock-javier-maciel/
-├── Backend/                          # Capa de lógica y datos
+├── Backend/                          # Business logic and data layer
 │   ├── Models/
-│   │   ├── Entidades/               # Clases de modelo (Cliente, Producto, etc.)
-│   │   └── AppDbContext.cs          # Contexto EF Core
+│   │   ├── Entidades/               # Model classes (Cliente, Producto, etc.)
+│   │   └── AppDbContext.cs          # EF Core context
 │   ├── Context/
 │   │   ├── AppDbContext.cs
-│   │   ├── AppDbContextFactory.cs   # Factory para migraciones
+│   │   ├── AppDbContextFactory.cs   # Factory for migrations
 │   │   └── StockContext.cs
 │   ├── Utils/
-│   │   ├── DataBase.cs              # Capa estática de acceso a datos
-│   │   └── DatabaseConfiguration.cs # Resolución de cadena de conexión
+│   │   ├── DataBase.cs              # Static data access layer
+│   │   └── DatabaseConfiguration.cs # Connection string resolution
 │   └── Backend.csproj
-├── ui/                               # Interfaz de usuario (WinForms)
-│   ├── Clientes/                    # Gestión de clientes
+├── ui/                               # User interface (WinForms)
+│   ├── Clientes/                    # Customer management
 │   │   ├── frmGestionCliente.cs
 │   │   └── frmListaClientes.cs
-│   ├── Productos/                   # Gestión de productos
+│   ├── Productos/                   # Product management
 │   │   ├── frmAgregarProducto.cs
 │   │   └── frmListaDeProductos.cs
-│   ├── Proveedores/                 # Gestión de proveedores
+│   ├── Proveedores/                 # Supplier management
 │   │   ├── frmGestionProveedor.cs
 │   │   └── frmListarProveedor.cs
-│   ├── Compra/                      # Gestión de compras
+│   ├── Compra/                      # Purchase management
 │   │   ├── frmNuevaCompra.cs
 │   │   └── frmListaCompras.cs
-│   ├── Ventas/                      # Gestión de ventas
+│   ├── Ventas/                      # Sales management
 │   │   ├── frmVentas.cs
 │   │   └── frmListaVentas.cs
-│   ├── appsettings.json             # Configuración de conexión
+│   ├── appsettings.json             # Connection configuration
 │   └── ui.csproj
-├── init_database.sql                 # Script de inicialización BD
-└── stock-javier-maciel.sln          # Solución Visual Studio
+├── init_database.sql                 # Database initialization script
+└── stock-javier-maciel.sln          # Visual Studio solution
 ```
 
-##  Características
+---
 
-### Gestión de Proveedores
-- Crear, editar y eliminar proveedores
-- Registrar nombre, email, teléfono y dirección
-- Validación de campos obligatorios
+## Features
 
-### Gestión de Productos
-- Crear, editar y eliminar productos
-- Asignar proveedor
-- Controlar precio y stock
-- Visualizar listado sin proveedor redundante
+### Supplier Management
 
-### Gestión de Clientes
-- Crear, editar y eliminar clientes
-- Registrar género y tipo de teléfono
-- Validación de datos completos
+- Create, edit, and delete suppliers
+- Store name, email, phone number, and address
+- Required field validation
 
-### Gestión de Compras
-- Registrar nuevas compras con proveedor
-- Agregar múltiples productos por compra
-- Tipo de pago: Contado o Crédito
-- Visualizar detalles de compra (productos, cantidades, precios)
-- Actualizar stock automáticamente
-- Botones Guardar y Cancelar
+### Product Management
 
-### Gestión de Ventas
-- Registrar ventas con cliente
-- Agregar múltiples productos a la venta
-- Control de stock disponible
-- Forma de pago: Contado o Crédito
-- Visualizar detalles de venta
-- Botones Guardar y Cancelar
-- Actualizar stock automáticamente
+- Create, edit, and delete products
+- Assign suppliers
+- Manage price and stock
+- Display product list without redundant supplier data
+
+### Customer Management
+
+- Create, edit, and delete customers
+- Store gender and phone type
+- Complete data validation
+
+### Purchase Management
+
+- Register new purchases with suppliers
+- Add multiple products per purchase
+- Payment types: Cash or Credit
+- View purchase details (products, quantities, prices)
+- Automatic stock updates
+- Save and Cancel buttons
+
+### Sales Management
+
+- Register sales with customers
+- Add multiple products per sale
+- Available stock validation
+- Payment methods: Cash or Credit
+- View sale details
+- Save and Cancel buttons
+- Automatic stock updates
 
 ### UI/UX
-- Iconos visuales para editar, eliminar y ver detalles
-- Validaciones defensivas (filas inválidas, entidades nulas)
-- Mensajes de confirmación antes de eliminar
-- Manejo de errores (restricciones de integridad referencial)
 
-##  Configuración
+- Visual icons for edit, delete, and detail actions
+- Defensive validations (invalid rows, null entities)
+- Confirmation messages before deletion
+- Error handling for referential integrity constraints
 
-### Variable de entorno (alternativa a appsettings.json)
+---
+
+## Configuration
+
+### Environment variable (alternative to appsettings.json)
+
 ```bash
 # Windows PowerShell
-$env:STOCK_CONNECTION_STRING = "server=localhost;database=stock_db;user=root;password=MiPassword;"
+$env:STOCK_CONNECTION_STRING = "server=localhost;database=stock_db;user=root;password=MyPassword;"
 ```
 
-La aplicación prioriza la variable de entorno si está definida.
+The application prioritizes the environment variable if it is defined.
 
-##  Base de Datos
+---
 
-### Tablas principales
-- `clientes` - Datos de clientes
-- `proveedores` - Datos de proveedores
-- `productos` - Catálogo de productos
-- `compras` - Cabecera de compras
-- `detalles_compra` - Líneas de compra
-- `ventas` - Cabecera de ventas
-- `detalles_venta` - Líneas de ventas
-- `genero` - Catálogo de géneros
-- `tipo_telefono` - Catálogo de tipos de teléfono
+## Database
 
-### Relaciones
-- `producto` → `proveedor` (restricción: no eliminable si tiene productos)
-- `compra` → `proveedor` (restricción: no eliminable si tiene compras)
-- `venta` → `cliente` (restricción: no eliminable si tiene ventas)
-- `detalle_venta` → `venta` (cascada: se borran detalles si se borra venta)
-- `detalle_venta` → `producto` (restricción)
+### Main tables
 
-##  Validaciones
+- `clientes` - Customer data
+- `proveedores` - Supplier data
+- `productos` - Product catalog
+- `compras` - Purchase headers
+- `detalles_compra` - Purchase lines
+- `ventas` - Sales headers
+- `detalles_venta` - Sales lines
+- `genero` - Gender catalog
+- `tipo_telefono` - Phone type catalog
 
-La aplicación implementa validaciones en tiempo de guardado:
+### Relationships
 
-- **Campos obligatorios**: Nombre, email, teléfono, dirección (según entidad)
-- **Precios y cantidades**: Deben ser mayores a cero
-- **Relaciones**: Proveedor/Cliente requerido en compra/venta
-- **Stock**: No puede venderse más de lo disponible
-- **Integridad referencial**: No se pueden eliminar entidades con registros relacionados
+- `producto` → `proveedor` (restriction: cannot delete supplier with assigned products)
+- `compra` → `proveedor` (restriction: cannot delete supplier with purchases)
+- `venta` → `cliente` (restriction: cannot delete customer with sales)
+- `detalle_venta` → `venta` (cascade delete enabled)
+- `detalle_venta` → `producto` (restriction)
 
-## 🛠 Tecnologías
+---
 
-- **Lenguaje**: C# (.NET 8.0)
-- **UI**: Windows Forms
-- **ORM**: Entity Framework Core 8.0
-- **BD**: MySQL con Pomelo.EntityFrameworkCore.MySql
-- **Inyección de dependencias**: Microsoft.Extensions.DependencyInjection
+## Validations
 
-##  Notas de Desarrollo
+The application implements validations during save operations:
 
-### Agregar migraciones (si modificas el modelo)
+- **Required fields:** Name, email, phone number, address (depending on entity)
+- **Prices and quantities:** Must be greater than zero
+- **Relationships:** Supplier/Customer required for purchases and sales
+- **Stock:** Cannot sell more than available stock
+- **Referential integrity:** Entities with related records cannot be deleted
+
+---
+
+## Technologies
+
+- **Language:** C# (.NET 8.0)
+- **UI:** Windows Forms
+- **ORM:** Entity Framework Core 8.0
+- **Database:** MySQL with Pomelo.EntityFrameworkCore.MySql
+- **Dependency Injection:** Microsoft.Extensions.DependencyInjection
+
+---
+
+## Development Notes
+
+### Add migrations (if you modify the model)
+
 ```bash
 dotnet tool install --global dotnet-ef
-dotnet ef migrations add NombreMigracion --project Backend --startup-project ui
+dotnet ef migrations add MigrationName --project Backend --startup-project ui
 dotnet ef database update --project Backend --startup-project ui
 ```
 
-### Compilación
+### Build
+
 ```bash
 dotnet build --configuration Release
 ```
 
-### Ejecutable
+### Executable
+
 ```bash
 # Debug
 dotnet run --project ui/ui.csproj
@@ -207,30 +243,38 @@ dotnet run --project ui/ui.csproj
 dotnet run --project ui/ui.csproj --configuration Release
 ```
 
-##  Solución de Problemas
+---
 
-### Error: "No se encontró DefaultConnection"
-- Verifica que `appsettings.json` exista en `ui/`
-- Revisa la sintaxis de la cadena de conexión
-- Asegúrate de que la BD MySQL está en ejecución
+## Troubleshooting
 
-### Error: "No hay suficiente stock"
-- Verifica el inventario del producto
-- Realiza una compra para incrementar stock
+### Error: "DefaultConnection not found"
 
-### No se puede eliminar un proveedor/cliente
-- Tiene registros relacionados (productos/ventas)
-- Primero elimina o reasigna los registros dependientes
+- Verify that `appsettings.json` exists inside `ui/`
+- Check the connection string syntax
+- Ensure MySQL is running
 
-##  Licencia
+### Error: "Not enough stock"
 
-Proyecto personal de gestión de stock.
+- Check the product inventory
+- Register a purchase to increase stock
 
-##  Autor
+### Unable to delete a supplier/customer
+
+- The entity has related records (products/sales)
+- Delete or reassign dependent records first
+
+---
+
+## License
+
+Personal stock management project.
+
+---
+
+## Author
 
 Javier Maciel
 
 ---
 
-**Última actualización**: Abril 2026
-
+**Last updated:** April 2026
